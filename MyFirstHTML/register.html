@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Registration</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Register</h1>
+      <p>This is my registration and i love it</p>
+    </header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" >Contact US</a>
+      <a href="register.html" >Register</a>
+      <a href="http://www.google.com" class="right" target="_blank" >Google</a>
+    </nav>
+
+    <div class="row">
+      <main class="main">
+        <h2>Register</h2>
+        <p>Swing by for a registration!</p>
+          <form action="/" method="post">
+<fieldset>
+  <legend>User register information</legend>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" placeholder="Your username"/>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" placeholder="Your password"/>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" readonly="readonly" value="test" placeholder="Email"/>
+
+</fieldset>
+            <fieldset>
+              <legend>More fieldsets</legend>
+
+<!--            <label for="date">When to be contacted</label>-->
+<!--            <input type="date" id="date" name="date" min="22-11-2022" max="22-11-2023" placeholder="dd-mm-yyyy"/>-->
+
+
+<!--            <label for="role">Role</label>-->
+<!--            <select id="role" name="role">-->
+<!--              <option value="reader">Reader</option>-->
+<!--              <option value="contributor">Contributor</option>-->
+<!--              <option value="producer">Producer</option>-->
+<!--            </select>-->
+<br>
+            <p>
+            <input type="radio" id="male"   name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female"/>
+            <label for="female">Female</label>
+            <input type="radio" id="other"  name="gender" value="Other"/>
+            <label for="other">Other</label>
+            </p>
+
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="0" max="66" step="3">
+            </fieldset>
+            <fieldset>
+              <legend>Roles etc</legend>
+            <br>
+            <p>
+              <input type="checkbox" id="reader"  name="reader" value="reader"/>
+              <label for="reader">Reader</label>
+              <input type="checkbox" id="contributor"  name="contributor" value="contributor"/>
+              <label for="contributor">Contributor</label>
+
+              <input type="checkbox" id="producer"  name="producer" value="producer"/>
+              <label for="producer">Producer</label>
+            </p>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+
+            <input type="checkbox" id="terms"  name="terms" value="accept terms"/>Accept Terms
+            <label for="terms"></label>
+            </fieldset>
+          </form>
+
+      </main>
+    </div>
+    <footer class="footer">
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
